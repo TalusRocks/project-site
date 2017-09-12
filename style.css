@@ -22,6 +22,10 @@
   padding-bottom: 160px;
 }
 
+img {
+  border: 1px solid #FF6F59;
+}
+
 /*FONT*/
 h1 {
   font-family: 'Source Code Pro', serif;
@@ -33,6 +37,7 @@ h2 {
   font-size: 4em;
   margin-bottom: 0px;
   text-align: center;
+  /*color: #FF6F59;*/
 }
 p {
   font-family: 'Source Code Pro', serif;
@@ -71,8 +76,17 @@ nav {
 .home a {
   color: white;
 }
-.projects-link a {
+a {
   color: #FF6F59;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF9383;
+}
+
+a:active {
+  color: #FF4F3C;
 }
 
 /*WELCOME*/
@@ -123,12 +137,22 @@ nav {
   background-color: #7F4A93;
 }
 
+.gh-btn:active {
+  background-color: #38064E;
+  color: #AA86B7;
+}
+
 .li-btn {
   background-color: #2BA8D1;
 }
 
 .li-btn:hover {
   background-color: #60BEDD;
+}
+
+.li-btn:active {
+  background-color: #198BBE;
+  color: #95D4E8;
 }
 
 .resume-btn {
@@ -139,12 +163,22 @@ nav {
   background-color: #ADE16A;
 }
 
+.resume-btn:active {
+  background-color: #73C522;
+  color: #C9EB9C;
+}
+
 .contact-btn {
   background-color: #FF6F59;
 }
 
 .contact-btn:hover {
   background-color: #FF9383;
+}
+
+.contact-btn:active {
+  background-color: #FF4F3C;
+  color: #FFB7AC;
 }
 
 /*PROJECTS SECTION*/
@@ -165,7 +199,6 @@ img {
 }
 
 .read-more {
-  color: #FF6F59;
   font-family: 'Scada', sans-serif;
   font-size: 1.2em;
   float: right;
@@ -235,6 +268,10 @@ footer {
 .message-me:hover {
   background-color: #FF6F59;
   color: #fff;
+}
+
+.message-me:active {
+  background-color: #FF4F3C;
 }
 
 
