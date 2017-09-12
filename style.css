@@ -7,13 +7,42 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 90%;
   margin: 0 auto;
+}
+
+.md-mrg-top {
+  margin-top: 60px;
+}
+
+.lg-mrg-top {
+  margin-top: 100px;
+}
+
+.xl-pad-bottom {
+  padding-bottom: 160px;
 }
 
 /*FONT*/
 h1 {
-  
+  font-family: 'Source Code Pro', serif;
+  font-size: 7em;
+  margin: 60px 0px 0px 0px;
+}
+h2 {
+  font-family: 'Scada', sans-serif;
+  font-size: 4em;
+  margin-bottom: 0px;
+  text-align: center;
+}
+p {
+  font-family: 'Source Code Pro', serif;
+  font-size: 1.2em;
+}
+h3 {
+  font-family: 'Scada', sans-serif;
+  font-size: 2.8em;
+  margin-bottom: 20px;
+  color: #FF6F59;
 }
 
 /*NAVIGATION*/
@@ -48,11 +77,21 @@ nav {
 
 /*WELCOME*/
 .welcome-wrapper {
-  width: 100%
+  width: 90%
 }
 
 .welcome-text {
   text-align: center;
+}
+
+.name {
+  font-size: 2em;
+  margin: 0px;
+}
+.title {
+  font-family: 'Scada', sans-serif;
+  font-size: 1.8em;
+  margin: 10px 0px 80px 0px;
 }
 
 .welcome-buttons {
@@ -86,4 +125,115 @@ nav {
 
 .contact-btn {
   background-color: #FF6F59;
+}
+
+/*PROJECTS SECTION*/
+.project-bg-wrapper {
+  background-color: #efefef;
+  width: 100%;
+}
+
+.project-inner-wrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.read-more {
+  color: #FF6F59;
+  font-family: 'Scada', sans-serif;
+  font-size: 1.2em;
+  float: right;
+  text-decoration: none;
+}
+
+.small-title, .call-to-action {
+  font-family: 'Scada', sans-serif;
+  font-size: 1.8em;
+  margin-top: 0px;
+}
+
+/*ABOUT ME*/
+.about-me-outer {
+  background-color: #333;
+  padding: 60px 0px;
+}
+
+.about-me-inner {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.rj-headshot {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.bio-text {
+  flex: 2;
+  color: #fff;
+}
+
+.about-me, .call-to-action {
+  color: #fff;
+}
+
+/*FOOTER*/
+/* these three make the footer stick...*/
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content-wrapper {
+  flex: 1 0 auto;
+}
+
+footer {
+  background-color: #111;
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.message-me {
+  padding: 20px 40px;
+  background-color: #fff;
+  color: #FF6F59;
+  text-decoration: none;
+  font-family: 'Source Code Pro', serif;
+  font-size: 1.2em;
+}
+
+
+
+@media (min-width:660px) {
+  .welcome-buttons {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width:1200px) {
+  .welcome-buttons {
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .button {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
