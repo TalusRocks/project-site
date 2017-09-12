@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+/*GENERAL*/
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/*FONT*/
+h1 {
+  
+}
+
+/*NAVIGATION*/
+nav {
+  background-color: #000;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  margin: 0px 5% 0px 5%;
+  padding: 20px 0px;
+  list-style: none;
+}
+.home {
+  margin-right: auto;
+}
+.menu li {
+  display: flex;
+  align-items: center;
+}
+
+.home a, .projects-link a {
+  text-decoration: none;
+  font-family: 'Source Code Pro', serif;
+}
+.home a {
+  color: white;
+}
+.projects-link a {
+  color: #FF6F59;
+}
+
+/*WELCOME*/
+.welcome-wrapper {
+  width: 100%
+}
+
+.welcome-text {
+  text-align: center;
+}
+
+.welcome-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  text-align: center;
+  padding: 20px 0px;
+  margin: 5px 0px;
+  background-color: lightblue;
+  width: 100%;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Source Code Pro', serif;
+  font-size: 1.2em;
+}
+
+.gh-btn {
+  background-color: #540D6E;
+}
+
+.li-btn {
+  background-color: #2BA8D1;
+}
+
+.resume-btn {
+  background-color: #92D738;
+}
+
+.contact-btn {
+  background-color: #FF6F59;
+}
