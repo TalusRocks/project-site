@@ -111,20 +111,40 @@ nav {
   font-size: 1.2em;
 }
 
+.gh-btn, .li-btn, .resume-btn, .contact-btn {
+  transition: 0.5s;
+}
+
 .gh-btn {
   background-color: #540D6E;
+}
+
+.gh-btn:hover {
+  background-color: #7F4A93;
 }
 
 .li-btn {
   background-color: #2BA8D1;
 }
 
+.li-btn:hover {
+  background-color: #60BEDD;
+}
+
 .resume-btn {
   background-color: #92D738;
 }
 
+.resume-btn:hover {
+  background-color: #ADE16A;
+}
+
 .contact-btn {
   background-color: #FF6F59;
+}
+
+.contact-btn:hover {
+  background-color: #FF9383;
 }
 
 /*PROJECTS SECTION*/
@@ -209,8 +229,13 @@ footer {
   text-decoration: none;
   font-family: 'Source Code Pro', serif;
   font-size: 1.2em;
+  transition: 0.5s;
 }
 
+.message-me:hover {
+  background-color: #FF6F59;
+  color: #fff;
+}
 
 
 @media (min-width:660px) {
