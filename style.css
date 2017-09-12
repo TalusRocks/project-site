@@ -81,6 +81,10 @@ a {
   text-decoration: none;
 }
 
+a {
+  transition: 0.5s;
+}
+
 a:hover {
   color: #FF9383;
 }
@@ -127,6 +131,10 @@ a:active {
 
 .gh-btn, .li-btn, .resume-btn, .contact-btn {
   transition: 0.5s;
+}
+
+.gh-btn:hover, .li-btn:hover, .resume-btn:hover, .contact-btn:hover {
+  color: #fff;
 }
 
 .gh-btn {
